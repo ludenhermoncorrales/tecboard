@@ -39,7 +39,7 @@ header {
 }
 
 .container_section_one_button {
-    background-color: #8233E8;
+    background-color: #9747FF;
     margin: 40px 44%;
     border-radius: 36px;
     padding: 10px;
@@ -55,6 +55,11 @@ header {
     margin: 40px;
 }
 
+.container_section_one_button:hover{
+    background-color: #8233E8;
+}
+
+
 @media(max-width: 1300px) {
     .container_section_one_button {
         margin: 40px 35%;
@@ -63,7 +68,7 @@ header {
 
 @media(max-width: 768px) {
     .container_section_one img {
-        width: 659px;
+        width: 792px;
         height: 446px;
     }
 
