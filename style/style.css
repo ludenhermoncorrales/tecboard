@@ -29,7 +29,6 @@ header {
 }
 
 .container_section_one h1 {
-    text-align: center;
     font-size: 64px;
 }
 
@@ -40,10 +39,8 @@ header {
 }
 
 .container_section_one_button {
-    background-color: #8233E8;
-    margin-top: 40px;
-    margin-left: 40%;
-    margin-right: 40%;
+    background-color: #9747FF;
+    margin: 40px 44%;
     border-radius: 36px;
     padding: 10px;
 }
@@ -56,4 +53,40 @@ header {
 
 .container_section_one div img {
     margin: 40px;
+}
+
+.container_section_one_button:hover{
+    background-color: #8233E8;
+}
+
+
+@media(max-width: 1300px) {
+    .container_section_one_button {
+        margin: 40px 35%;
+    }
+}
+
+@media(max-width: 768px) {
+    .container_section_one img {
+        width: 792px;
+        height: 446px;
+    }
+
+    .container_section_one p {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+
+    .container_section_one_button {
+        margin: 40px 25%;
+    }
+}
+
+@media(max-width: 600px) {
+    .container_section_one img {
+        width: 341px;
+        height: 230px;
+    }
 }
